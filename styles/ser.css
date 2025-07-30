@@ -1,0 +1,20 @@
+*{
+    font-family: "Urbanist", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    position: relative;
+    color: red;
+    font-size: 60px;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100svw;
+    height: 100svh;
+}

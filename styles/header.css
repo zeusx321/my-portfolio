@@ -1,0 +1,68 @@
+header, .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+.header{
+    height: 50px;
+    width: 75%;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: rgba(45, 45, 45, 0.74);
+    border-radius: 50px;
+    box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.01);
+}
+
+.logo-div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div img{
+    width: 37px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header nav{
+    flex: 3;
+}
+.hover-round-li-div, header li{
+    flex: 2;
+}
+.hover-round-li-div{
+    flex: 1;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: rgb(187, 187, 187);
+    transition: background-color 0.2s;
+    overflow: hidden;
+    line-height: 1;
+}
+
+
+
+.hover-round-li-div:hover{
+    background-color: rgb(46, 46, 46);
+}

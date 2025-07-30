@@ -1,0 +1,122 @@
+.home-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+    height: 620px;
+    padding: 0 50px;
+    margin: 0 30px;
+}
+
+.left-main-part{
+    display: flex;
+    align-items: start;
+    flex-direction: column; 
+}
+
+.right-main-part{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-p-div h1 {
+    font-size: 65px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.main-p-div h2{
+    font-size: 45px;
+}
+
+.front-span{
+    background: linear-gradient(45deg, #29cbeb, #2a7aff, #b345fd, #fa935c, #b345fd, #2a7aff, #29cbeb);
+    padding: 0 10px;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s linear infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.main-p-div{
+    margin-bottom: 20px;
+}
+
+.icon-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin-right: 15px;
+    color: #d2d1d1;
+    transition: all 0.2s;
+}
+
+.icon-main-div img{
+    width: 27px;   
+    transition: all 0.2s;
+}
+
+.fa-brands:hover, .icon-main-div img:hover{
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}
+
+.fa-brands:active, .icon-main-div img:active{
+    transform: scale(0.9);
+}
+
+
+
+
+.abs-main-h2-div{
+    position: absolute;
+    right: -220px;
+    bottom: -70px;
+    z-index: -1;
+    line-height: 105px;
+}
+
+.abs-main-h2-div h2{
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.abs-main-h2-2{
+    background: linear-gradient(#282828, #202020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.abs-main-h2-1{
+    background: linear-gradient(#424242,#222222);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.my-img-div{
+    width: 500px;
+    
+}
+
+.my-img-div img{
+    width: 99%;
+}
+
+

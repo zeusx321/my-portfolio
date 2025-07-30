@@ -1,0 +1,115 @@
+.proj-section{
+    position: relative;
+    height: 550px;
+    padding: 0 50px;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proj-h2 h2::before{
+    width: 100px;
+    bottom: -10px;
+}
+
+.main-proj-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    height: 350px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.proj-div{
+    padding: 18px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: rgba(45, 45, 45, 0.587);
+    border: 1px solid rgb(74, 74, 74);
+    box-shadow: 5px 5px 50px rgba(78, 78, 78, 0.116);
+    transition: all 0.3s;
+}
+
+.proj-div:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 50px rgba(105, 105, 105, 0.16);
+}
+
+.proj-img-div{
+    position: relative;
+}
+
+.abs-proj-div{
+    position: absolute;
+    top: 0;
+    bottom: 4px;
+    right: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.abs-proj-div div{
+    background-color: rgb(139, 139, 139);
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.abs-proj-div p{
+    font-size: 16px;
+}
+
+.abs-proj-div:hover{
+    opacity: 1;
+}
+
+.proj-img-div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.proj-det-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.proj-name-div p{
+    font-size: 17px;
+}
+
+.fa-heart{
+    font-size: 15px;
+    transition: all 0.2s;
+}
+
+.fa-solid:hover{
+    color: rgb(245, 28, 28);
+}
+
+.fa-solid:active{
+    transform: scale(0.9);
+}
+
+.loading{
+    background-color: transparent;
+    border: 1px dashed rgb(74, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abs-proj{
+    bottom: 20px;
+    right: -150px;
+}

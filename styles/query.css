@@ -1,0 +1,19 @@
+@media (max-width: 1010px){
+    .my-img-div{
+        width: 420px;
+    }
+    .main-p-div h1 {
+        font-size: 60px;
+    }
+
+    .main-p-div h2{
+        font-size: 40px;
+    }
+    .bar-div{
+        width: 70%;
+    }
+    .why-div{
+        height: 420px;
+        gap: 0;
+    }
+}

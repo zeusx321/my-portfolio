@@ -1,0 +1,44 @@
+.edu-section{
+    height: 350px;
+    padding: 0 50px;
+    margin: 20px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+}
+
+.edu-cont{
+    width: 100%;
+}
+
+.edu-grid{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 30px;
+}
+
+.edu-div{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.edu-left-part{
+    width: 100px;
+}
+
+.edu-div h3{
+    padding-bottom: 8px;
+}
+
+.edu-div p{
+    padding-bottom: 7px;
+}
+
+.abs-proj{
+    bottom: 50px;
+}

@@ -1,6 +1,6 @@
 .proj-section{
     position: relative;
-    height: 550px;
+    height: 600px;
     padding: 0 50px;
     margin: 30px 30px;
     display: flex;
@@ -110,6 +110,6 @@
 }
 
 .abs-proj{
-    bottom: 20px;
-    right: -150px;
+    bottom: 250px;
+    right: -170px;
 }
